@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* main Choose Your place start  */
+
+.container-text {
+    text-align: center;
+    padding: 4rem;
+}
+
+.img-row {
+    display: flex;
+    width: 100%;
+    gap: .1rem;
+
+
+}
+
+.image img {
+    width: 100%;
+
+}
+
+.image h3 {
+    position: relative;
+    top: -10rem;
+    left: 10rem;
+    color: #FFF;
+}
+
+
+
+/* card start  */
+.container-card {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.card {
+    height: 25rem;
+    width: 25rem;
+    background: #9e7b7b;
+    border-radius: .5rem;
+    padding: 2rem;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, .2),
+        15px 15px 15px rgba(0, 0, 0, .2),
+        inset -5px -5px 5px rgba(255, 255, 255, .2),
+        inset 5px 15px 15px rgba(245, 183, 183, 0.2);
+
+
+}
+
+.container-card-item {
+    margin: 0 auto;
+    padding: 5rem 10rem;
+    background: #854141;
+    height: 15rem;
+    width: 15rem;
+    border-radius: .5rem;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, .2),
+        15px 15px 15px rgba(0, 0, 0, .2),
+        inset -5px -5px 5px rgba(255, 255, 255, .2),
+        inset 5px 15px 15px rgba(0, 0, 0, .2);
+
+
+}
+
+/* card end  */
+
+
+
+
+/* main Choose Your place end */
+
+
+
+
+/* header menu bar start  */
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.icon-header {
+    align-items: center;
+    padding: 20px;
+}
+
+.icon-header img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.menu-header ul {
+    list-style: none;
+
+}
+
+.menu-header ul li {
+    display: inline-block;
+    padding: 10px 10px;
+
+}
+
+.menu-header ul li a {
+    text-decoration: none;
+}
+
+.banner-section {
+    background-image: url("./Images/Group 13 (1) (1).png");
+}
+
+
+
+
+.banner-section {
+    text-align: center;
+    padding: 15rem;
+
+
+}
+
+.banner-button h3 {
+    display: inline-block;
+    padding: 1rem .5rem;
+    color: #FFF;
+    margin: 0 1rem;
+}
+
+/* header menu bar end  */
+
+
+/* main place part start  */
+.container-item {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px auto;
+    background: #FFF;
+}
+
+.container-item .text-item {
+    padding:2rem;
+}
+
+.container-img-item .img-text{
+    border-radius:.2rem;
+   background: #FF5400;
+   width:15rem;
+    height: 4rem;
+    padding: 1rem;
+/* transform: rotate(-19.628deg); */
+flex-shrink: 0;
+}
+
+button {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 800;
+    padding: .6rem 1.2rem;
+    border-radius: .5rem;
+    background: #FF5400;
+    margin:0 auto;
+
+}
+
+
+
+/* form part start  */
+
+.text-form form input {
+    display: block;
+    padding: .5rem;
+    width: 80%;
+    margin: .5rem;
+    border: none;
+    border-radius: .5rem;
+    background: rgba(19, 19, 24, 0.05);
+
+
+
+}
+
+.text-form {
+
+    padding: .5rem;
+    width: 80%;
+    margin: .5rem;
+}
+
+.text-form button {
+
+    padding: .5rem;
+    width: 80%;
+    margin: .5rem;
+}
+
+/* form part end  */
+
+
+
+
+/* main place part end */
+
+
+
+/* footer section start  */
+.footer-container {
+    background: rgba(19, 19, 24, 0.05);
+    margin: 0 auto;
+  
+}
+
+.nornal-text {
+    text-align: center;
+    padding: 2rem 2rem;
+}
+
+span .icon-footer{
+    height:2rem;
+    width: 2rem;
+    
+}
+
+
+.footer-container .nornal-text p {
+    text-align: center;
+    padding: 2rem 2rem;
+    color: #5A5A5D;
+    font-family: Mulish;
+   
+    font-weight: 400;
+   
+
+
+}
+
+.footer-container .nornal-text h3 {
+
+    display: inline-block;
+    font-size: 3rem;
+    margin-right: 1rem;
+
+
+}
+
+.footer-container .icon-img {
+    text-align:center;
+    padding: 1rem 2rem;
+    align-content:center;
+
+
+
+}
+
+.footer-container .last-text {
+
+    text-align: center;
+    padding: 2rem 2rem;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-weight: 400;
+    line-height: 1.5rem;
+
+}
+
+.container,
+hr {
+    width: 80%;
+    margin: 0 auto;
+
+
+}
+
+.travel {
+    color: #FF5400;
+}
+
+
+
+
+/* footer section end  */
+
+
+
+/* For mobile device  */
+
+
+
+@media screen and (max-width:600px) {
+
+    .footer-container .nornal-text p {
+        padding: 1rem;
+    }
+
+
+    .footer-container .last-text {
+        padding: 1rem 1rem;
+
+    }
+
+    .footer-container .nornal-text h3 {
+        display: inline-block;
+        font-size: 1rem;
+
+    }
+
+    span .icon-footer{
+        height:1rem;
+        width: 1rem;
+        
+    }
+}
