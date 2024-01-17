@@ -3,10 +3,9 @@
     padding: 0;
 }
 
+/* header menu bar start  */
 
- body{
-        font-family: "Mulish", sans-serif;
- }
+
 
 
 nav {
@@ -102,14 +101,12 @@ span{
 .img-row {
     display: flex;
     width: 100%;
-    gap:1rem;
-   
+    gap:.2rem;
 
 }
 
 .image img {
     width: 100%;
-    
 
 }
 

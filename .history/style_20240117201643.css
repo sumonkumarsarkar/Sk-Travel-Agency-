@@ -3,10 +3,9 @@
     padding: 0;
 }
 
+/* header menu bar start  */
 
- body{
-        font-family: "Mulish", sans-serif;
- }
+
 
 
 nav {
@@ -54,7 +53,7 @@ nav {
 
 .banner-section {
     text-align: center;
-    padding:10rem;
+    padding:8rem 1rem;
     border-radius: 1rem;
     color:#FFF;
 
@@ -69,7 +68,7 @@ nav {
     display: inline-block;
     padding: .3rem .5rem;
     color:#5A5A5D;
-    margin:.5rem;
+    margin:1rem;
     background: #FFF;
     border-radius: .5rem;
     
@@ -85,7 +84,7 @@ span{
 }
 .icon-header h2{
     display: inline-block;
-    margin-right:.5rem;
+    margin-right:1rem;
     
 }
 
@@ -96,20 +95,18 @@ span{
 
 .container-text {
     text-align: center;
-    padding:4rem;
+    padding: 4rem;
 }
 
 .img-row {
     display: flex;
     width: 100%;
-    gap:1rem;
-   
+    gap: .1rem;
 
 }
 
 .image img {
     width: 100%;
-    
 
 }
 
